@@ -9,6 +9,7 @@ tags:
   - sideprojects
 image: ../../img/posts/freedns-subdomains-for-your-side-projects-demos-aliases/Side_Project_Ideas.png
 layout: layouts/post.njk
+draft: true
 ---
 <div align="center">
 

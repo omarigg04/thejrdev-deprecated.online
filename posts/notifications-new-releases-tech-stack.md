@@ -9,6 +9,7 @@ tags:
   - automation
 image: ../../img/posts/notifications-new-releases-tech-stack/github_release.png
 layout: layouts/post.njk
+draft: true
 ---
 
 <div align="center">
