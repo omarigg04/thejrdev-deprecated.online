@@ -280,6 +280,9 @@ module.exports = function (eleventyConfig) {
     }
   });
 
+   // Add google verification file passthrough
+   eleventyConfig.addPassthroughCopy({"static/google12345.html": "google12345.html"});
+
   return {
     templateFormats: ["md", "njk", "html", "liquid"],
 
