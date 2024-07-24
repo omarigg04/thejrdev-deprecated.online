@@ -9,6 +9,7 @@ tags:
   - pipelines
 image: ../../img/posts/azure-ephemeral-pipelines-agents/ephemeral_agents_schema.png
 layout: layouts/post.njk
+draft: true
 ---
 
 <div align="center">

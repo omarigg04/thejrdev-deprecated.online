@@ -9,6 +9,7 @@ tags:
   - utils
 image: ../../img/posts/improve-your-code-using-roslyn-analyzers/banned_symbols_overview.png
 layout: layouts/post.njk
+draft: true
 ---
 
 <div align="center">

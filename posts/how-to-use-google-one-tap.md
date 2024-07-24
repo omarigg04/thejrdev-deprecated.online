@@ -9,6 +9,7 @@ tags:
   - oidc
 image: ../../img/posts/how-to-use-google-one-tap/one-tap-sign-in.png
 layout: layouts/post.njk
+draft: true
 ---
 
 <div align="center">
