@@ -9,11 +9,7 @@ eleventyNavigation:
   order: 3
 ---
 
-Hello! I'm a Software Engineer from Zaragoza (Spain) that loves Web Development, Data Mining and Business Intelligence.
-
-I got my Bachelor’s Degree in Computer Science and Engineering in 2016 at University of Zaragoza. Nowadays, I'm actually working as full stack developer using .NET environment (Core and Framework) and Angular/Vue.js on top.
-
-I'm constantly learning new languages and creating my own personal projects. Besides, I really enjoy attending tech events, sports and walking in the countryside. Take a look at my resume, my list of projects, my blog to know more about me.
+Im a software developer for a focused on provide stylish and functional user interface with the usage of technologies like Angular, React and Vue. I Also code a bit on the back-end and server side. I consider myself creative and self-learner, science supporter, love to produce music and coding. I use to build my own tools and gadgets to create sound.
 
 [View my portfolio!](https://pirac.es)
 
@@ -46,4 +42,4 @@ Or...
 - [KeyOxide](https://keyoxide.org/84BF523F3F3EFA760C3E2C0C0C1A484B87269CD7)
 - [Keybase](https://keybase.io/piraces/pgp_keys.asc)
 - [Mail](mailto:raul@piraces.dev)
-- [RSS Feed (this blog)](https://piraces.dev/feed/feed.xml)
+- [RSS Feed (this blog)](https://thejrdev.online/feed/feed.xml)

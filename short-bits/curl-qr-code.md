@@ -1,10 +1,10 @@
 ---
 layout: layouts/base.njk
 title: Create a QR code with curl
-description: <pre>curl qrenco.de/:[CONTENT]</pre><pre>curl qrenco.de/https://piraces.dev</pre>
+description: <pre>curl qrenco.de/:[CONTENT]</pre><pre>curl qrenco.de/https://thejrdev.online</pre>
 image: ../../img/short-bits/default.png
 short: true
-tweet: curl qrenco.de/:[CONTENT]\ncurl qrenco.de/https://piraces.dev
+tweet: curl qrenco.de/:[CONTENT]\ncurl qrenco.de/https://thejrdev.online
 date: 2022-01-07
 templateClass: tmpl-post
 ---
@@ -14,7 +14,7 @@ If you are already familiar or you just feels comfy with the terminal, there are
 In this case, we can create a QR code with curl using the service in [qrenco.de](https://qrenco.de):
 
 ```bash
-curl qrenco.de/https://piraces.dev # Replace after the first slash with the content you want
+curl qrenco.de/https://thejrdev.online # Replace after the first slash with the content you want
 ```
 
 ***Note:** you can also make use of this service directly in your web browser since its a simple HTTP GET request.*

@@ -28,6 +28,6 @@ jobs:
       - uses: convictional/trigger-workflow-and-wait@master
         if: ${{ steps.schedule-check.outputs.EXECUTE_WORKFLOW == 'true' }}
         with:
-          owner: piraces
+          owner: omarigg04
           repo: blog
           github_token: ${{ secrets.PAT }}

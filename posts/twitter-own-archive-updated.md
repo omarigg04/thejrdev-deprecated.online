@@ -98,7 +98,7 @@ Then follow this steps:
 7. After importing the tweets, we will be making some changes to the `_data/metadata.js` file, which will customize some page settings for our archive. We will modify the options as follows (leave the others without modifications):
     - `username`: your twitter handle **without the `@` symbol**
     - `homeLabel`: the label that will appear at the top of your twitter archive... it will be a link to your home page, so call it accordingly.
-    - `homeURL`: URL to your home page in absolute format (for example "https://piraces.dev").
+    - `homeURL`: URL to your home page in absolute format (for example "https://thejrdev.online").
 
 <div align="center">
 

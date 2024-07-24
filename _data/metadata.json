@@ -1,18 +1,18 @@
 {
-  "title": "Piraces Blog",
-  "url": "https://piraces.dev",
-  "domain": "piraces.dev",
+  "title": "thejrdev",
+  "url": "https://thejrdev.online",
+  "domain": "thejrdev.online",
   "description": "Personal blog about Software development and tech related things",
   "genre": "Software Engineering",
   "feed": {
     "subtitle": "Personal blog about Software development and tech related things",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "id": "https://piraces.dev"
+    "id": "https://thejrdev.online"
   },
   "jsonfeed": {
     "path": "/feed/feed.json",
-    "url": "https://piraces.dev/feed/feed.json"
+    "url": "https://thejrdev.online/feed/feed.json"
   },
   "author": {
     "name": "Raúl Piracés",

@@ -1,10 +1,10 @@
 # piraces.dev Blog
 
 ![CI](https://github.com/piraces/blog/workflows/CI/badge.svg)
-[![Publish to Cloudflare pages](https://github.com/piraces/blog/actions/workflows/main.yml/badge.svg)](https://github.com/piraces/blog/actions/workflows/main.yml)
+<!-- [![Publish to Cloudflare pages](https://github.com/piraces/blog/actions/workflows/main.yml/badge.svg)](https://github.com/piraces/blog/actions/workflows/main.yml) -->
 ![IPFS](https://img.shields.io/badge/IPFS-Available-brightgreen?logo=ipfs)
 
-Blog for [piraces.dev](https://piraces.dev/), made with the [Eleventy static site generator](https://www.11ty.dev/) implementing a wide range of performance best practices (using the template [google/eleventy-high-performance-blog](https://github.com/google/eleventy-high-performance-blog)).
+Blog for [thejrdev.online](https://thejrdev.online/), made with the [Eleventy static site generator](https://www.11ty.dev/) implementing a wide range of performance best practices (using the template [google/eleventy-high-performance-blog](https://github.com/google/eleventy-high-performance-blog)).
 
 Based on the awesome [eleventy-base-blog](https://github.com/11ty/eleventy-base-blog).
 
@@ -42,7 +42,7 @@ MIT License
 
 Copyright (c) 2018 Zach Leatherman @zachleat
 
-Modifications to the theme and codebase Copyright (c) 2019 Raúl Piracés @piraces_
+Modifications to the theme and codebase Copyright (c) 2019 Raúl Piracés @omarigg04
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
