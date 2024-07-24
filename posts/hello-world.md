@@ -19,7 +19,7 @@ Welcome to my new blog!
 
 I have moved the entire blog to [11ty](https://www.11ty.dev/), using the awesome template [google/eleventy-high-performance-blog](https://github.com/google/eleventy-high-performance-blog).
 
-Currently is being deployed via [Netlify](https://netlify.com) from my [Github repo](https://github.com/piraces/piraces.dev). Check it out!
+Currently is being deployed via [Netlify](https://netlify.com) from my [Github repo](https://github.com/piraces/thejrdev.online). Check it out!
 
 ---
 
@@ -27,4 +27,4 @@ Currently is being deployed via [Netlify](https://netlify.com) from my [Github r
 
 It's made with [GatsbyJS](https://www.gatsbyjs.org), using the spectacular theme ["Lumen"](https://github.com/alxshelepenok/gatsby-starter-lumen) modified to meet my needs.
 
-Currently is being deployed via [Netlify](https://netlify.com) from my [Github repo](https://github.com/piraces/piraces.dev). Check it out!
+Currently is being deployed via [Netlify](https://netlify.com) from my [Github repo](https://github.com/piraces/thejrdev.online). Check it out!

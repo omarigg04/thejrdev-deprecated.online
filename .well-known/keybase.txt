@@ -4,7 +4,7 @@ https://keybase.io/piraces
 
 I hereby claim:
 
-  * I am an admin of https://piraces.dev
+  * I am an admin of https://thejrdev.online
   * I am piraces (https://keybase.io/piraces) on keybase.
   * I have a public key ASD0yOguzpK5EIHAUCMh_rjAANSBT-ugtlTmbLNtJB45iAo
 
@@ -27,7 +27,7 @@ To do so, I am signing this object:
     },
     "service": {
       "entropy": "ukGSDqK4cs2Z/mW/D2HK1cgT",
-      "hostname": "piraces.dev",
+      "hostname": "thejrdev.online",
       "protocol": "https:"
     },
     "type": "web_service_binding",
