@@ -1,4 +1,4 @@
-# piraces.dev Blog
+# thejrdev Blog
 
 ![CI](https://github.com/piraces/blog/workflows/CI/badge.svg)
 <!-- [![Publish to Cloudflare pages](https://github.com/piraces/blog/actions/workflows/main.yml/badge.svg)](https://github.com/piraces/blog/actions/workflows/main.yml) -->

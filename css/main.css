@@ -1,7 +1,9 @@
 /* Color customization */
 :root {
-  --primary: #44a9ff;
-  --primary-dark: #4e87b9;
+  /* --primary: #44a9ff;
+  --primary-dark: #4e87b9; */
+  --primary: #33d469;
+  --primary-dark: #2ab157;
 }
 
 .test-dead-code-elimination-sentinel {
@@ -1141,4 +1143,9 @@ div.short {
 
 time.small {
   font-size: small;
+}
+
+.posts-arrangement{
+ display: grid;
+ padding-bottom: 1rem;
 }
