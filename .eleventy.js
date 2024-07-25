@@ -282,6 +282,7 @@ module.exports = function (eleventyConfig) {
 
    // Add google verification file passthrough
    eleventyConfig.addPassthroughCopy({"static/google38735633b060c440.html": "google38735633b060c440.html"});
+   eleventyConfig.addPassthroughCopy({"static/robots.txt": "robots.txt"});
 
   return {
     templateFormats: ["md", "njk", "html", "liquid"],
