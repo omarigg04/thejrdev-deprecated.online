@@ -10,7 +10,7 @@
     {% endif %}
     <link rel="apple-touch-icon" href="{{ '/img/favicon/apple-touch-icon.png' | addHash }}">
     <meta name="theme-color" content="#44a9ff">
-    <meta name="robots" content="max-snippet:-1, max-image-preview: large, max-video-preview: -1">
+    <meta name="robots" content="index, follow">
     <title>{{ renderData.title or title or metadata.title | escape }}</title>
     <meta property="og:title" content="{{ renderData.title or title or metadata.title | escape  }}">
     {% set desc = renderData.description or description %}
