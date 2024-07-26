@@ -9,6 +9,18 @@ title: Archive
 permalink: /posts/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber }}/{% endif %}
 ---
 
+<form action="javascript:void(0);">
+  <label for="search-str">Search <small></label>
+  <input type="text" name="q" id="search-str"></p>
+</form>
+
+<div id="posts">
+  <ul id="resultList">
+  </ul>
+</div>
+
+
+
 {% set postslist = posts %}
 {% include "postslist.njk" %}
 {% set content = posts %}

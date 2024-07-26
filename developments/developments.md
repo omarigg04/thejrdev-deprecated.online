@@ -4,9 +4,9 @@ title: Developments
 description: I love contributing to open source software... Here is a short brief about my contributions
 image: ../../img/developments/development.png
 templateClass: tmpl-post
-eleventyNavigation:
-  key: Developments
-  order: 5
+# eleventyNavigation:
+#   key: Developments
+#   order: 5
 ---
 
 * [ Shortalink ](#shortalink)
