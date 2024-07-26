@@ -8,7 +8,8 @@ tags:
   - desarrollo
   - carrera
 layout: layouts/post.njk
-imagePost: https://github.com/user-attachments/assets/f736cc59-04f9-4656-bb05-44f37f99df39
+# imagePost: https://assets.playgroundai.com/1086ec9f-17e9-4d16-8831-1ceb5633c1b7.jpg
+concept: reading
 ---
 
 ## Introducción

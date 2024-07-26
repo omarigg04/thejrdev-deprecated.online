@@ -69,9 +69,19 @@
         </div>
         <div id="reading-progress" aria-hidden="true"></div>
       </nav>
-      <h2>{{ title }}</h2>
+
+    <div class="typing-container">
+        {# <span class="typed-text">Hello, World!</span> #}
+      <h2 class="typed-text">{{ title }}</h2>
       {% block extraArticleHeader %}{% endblock %}
       <dialog id="message"></dialog>
+
+        <span class="cursor">|</span>
+    </div>
+
+
+
+      
     </header>
 
     <main>
