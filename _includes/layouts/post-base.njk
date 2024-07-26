@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% if isdevelopment %}
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    {% else %}
+    <link rel="icon" href="{{ '/img/favicon/favicon-192x192.png' | addHash }}" type="image/png">
+    {% endif %}
+    <link rel="apple-touch-icon" href="{{ '/img/favicon/apple-touch-icon.png' | addHash }}">
+    <meta name="theme-color" content="#44a9ff">
+    <meta name="robots" content="index, follow">
+    <title>{{ renderData.title or title or metadata.title | escape }}</title>
+    <meta property="og:title" content="{{ renderData.title or title or metadata.title | escape  }}">
+    {% set desc = renderData.description or description %}
+    {% if not desc %}
+      {% set desc = content | striptags | truncate(140) %}
+    {% endif %}
+    {% if desc %}
+      <meta name="description" content="{{ desc | escape  }}">
+      <meta property="og:description" content="{{ desc | escape }}">
+    {% endif %}
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@{{ metadata.author.twitterHandle }}">
+    <meta name="twitter:creator" content="@{{ metadata.author.twitterHandle }}">
+    {% if image %}
+      <meta property="og:image" content="{{ image | absoluteUrl(metadata.url) }}">
+    {% endif %}
+
+  {% if canonical %}
+    <link rel="canonical" href="{{ canonical }}" />
+  {% else %}
+    <link rel="canonical" href="{{ metadata.url }}{{ canonicalUrl or page.url }}">
+  {% endif %}
+    <!-- This is a blog and so it SHOULD be safe and it is nice for the web
+         to send referrers cross-origin.
+         However, if you use sensitive data in URLs, consider changing this to
+         a value like `origin-when-cross-origin`
+         https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referrer-Policy
+          -->
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
+
+    <link rel="preconnect" href="/" crossorigin>
+    <script type="text/partytown" async defer src="{{ "/js/min.js" | addHash }}">
+    </script>
+    <script type="text/partytown" async defer src="{{ "/js/pwa.js" | addHash }}"></script>
+    <script type="text/partytown" async defer src="{{ "/js/search.js" | addHash }}"></script>
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <!-- Notably iOS UAs also contain Mac OS X -->
+    <script csp-hash>if (/Mac OS X/.test(navigator.userAgent))document.documentElement.classList.add('apple')
+    </script>
+    <script csp-hash>{% partytown %}</script>
+    <!-- css is inserted by optimize-html custom plugin -->
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div id="nav">
+          <h1><a href="{{ '/' | url }}" title="Homepage">{{ metadata.title }}</a></h1>
+          <!-- Agregar un nuevo enlace al navbar manualmente -->
+          <a href="/posts/">Archive</a>
+          {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
+          {%- for entry in collections.all | eleventyNavigation %}
+            <a href="{{ entry.url | url }}">{{ entry.title }}</a>
+          {%- endfor %}
+
+        </div>
+        <div id="reading-progress" aria-hidden="true"></div>
+      </nav>
+      <h2>{{ title }}</h2>
+      {% block extraArticleHeader %}{% endblock %}
+      <dialog id="message"></dialog>
+    </div>
+
+
+
+      
+    </header>
+
+    <main>
+      <article>
+        {% block article %}
+          {{ content | safe }}
+        {% endblock %}
+
+        {% if page.url and page.url.indexOf("/posts/") > -1 and not pagination %}
+          <p>Published <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time></p>
+        {% endif %}
+      </article>
+    </main>
+
+    <footer>
+      &copy; Copyright {% currentYear %}<a href="/about/">{{ metadata.author.name }}</a>
+    </footer>
+
+    <!-- Current page: {{ page.url | url }} -->
+  </body>
+</html>
