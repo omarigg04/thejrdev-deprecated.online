@@ -8,13 +8,13 @@ tags:
   - desarrollo
   - carrera
 layout: layouts/post.njk
+imagePost: https://github.com/user-attachments/assets/f736cc59-04f9-4656-bb05-44f37f99df39
 ---
 
-# La Importancia de la Disciplina como Ingeniero
+## Introducción
 
 La disciplina es una cualidad crucial para los ingenieros. Este artículo discutirá por qué la disciplina es vital en la ingeniería y ofrecerá consejos prácticos para cultivarla.
 
-## Introducción
 
 La disciplina en ingeniería implica seguir procesos rigurosos, cumplir con los plazos y mantener altos estándares de calidad en el trabajo. Sin disciplina, es difícil lograr el éxito en esta profesión exigente.
 

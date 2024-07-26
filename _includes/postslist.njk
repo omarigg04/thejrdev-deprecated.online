@@ -1,9 +1,26 @@
 <ul>
 {% for post in postslist %}
+{% if post.data.imagePost %}
   <li class="posts-arrangement">
-    <time datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
-    <a href="{{ post.url | url }}">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a>
-    
+    <img style="height: 60px;" src="{{ post.data.imagePost }}" alt="{{ post.data.title }}">
+    {# <img style="height: 60px;" src="https://github.com/user-attachments/assets/f736cc59-04f9-4656-bb05-44f37f99df39" alt="Imagen del post"> #}
+    <div class="date-time">
+      <time datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
+      <a href="{{ post.url | url }}">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a>
+    </div>
   </li>
+  {% endif %}
+{% endfor %}
+
+{% for post in postslist %}
+{% if not post.data.imagePost %}
+  <li class="posts-arrangement">
+    <a style="height: 100%; font-size: 40px;">💡</a>
+    <div class="date-time">
+      <time datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
+      <a href="{{ post.url | url }}">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a>
+    </div>
+  </li>
+  {% endif %}
 {% endfor %}
 </ul>
