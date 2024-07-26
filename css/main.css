@@ -1183,20 +1183,25 @@ ul {
 .typing-container {
   display: flex;
   align-items: center;
+  height: 8rem;
+  padding-top: 1rem;
 }
 
 .typed-text {
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  height: 7rem;
+  padding-top: 1rem;
 
   font-size: 4em;
   white-space: nowrap;
   overflow: hidden;
-
   animation: typing 2s steps(9, end),
   cursor-blink 0.3s step-end infinite alternate;
 }
 
 .cursor {
+  height: 11rem;
+  padding-top: 1rem;
   font-size: 4.4em;
   margin-left: -0.12em;  
   animation: blink 0.75s step-end infinite;
