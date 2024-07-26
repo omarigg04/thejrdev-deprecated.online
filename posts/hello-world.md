@@ -9,7 +9,6 @@ layout: layouts/post.njk
 ---
 
 <div align="center">
-
 ![Hello World written in Befunge](../../img/posts/hello-world/Hello_World_Befunge.png)
 </div>
 

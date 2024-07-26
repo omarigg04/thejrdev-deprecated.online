@@ -8,7 +8,9 @@ tags:
   - learning
   - electronics
 layout: layouts/post.njk
-imagePost: https://assets.playgroundai.com/57ea3af1-068c-4607-83ca-b7ed1ec6802b.jpg
+# imagePost: https://assets.playgroundai.com/57ea3af1-068c-4607-83ca-b7ed1ec6802b.jpg
+concept: electronics
+
 ---
 
 These references are comprehensive resources for learning about audio oscillators using TTL chips. They include books like "CMOS Cookbook" and "The Art of Electronics" for foundational knowledge, online tutorials from websites such as Electronics Tutorials and All About Circuits for practical guidance, and active forums like Electronics Stack Exchange and EEVblog for community support. Additionally, YouTube channels like ElectroBOOM and Afrotechmods offer visual and practical tutorials, while simulation software like LTSpice and Multisim help you design and test your circuits before physical implementation.

@@ -1,10 +1,13 @@
 /* Color customization */
+
 :root {
   /* --primary: #44a9ff;
   --primary-dark: #4e87b9; */
   --primary: #33d469;
   --primary-dark: #2ab157;
 }
+
+
 
 .test-dead-code-elimination-sentinel {
   color: red;
@@ -1149,6 +1152,7 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: baseline;
+  padding-inline-start: 0.5rem;
   .date-time{
     display: block;
   }
@@ -1157,6 +1161,8 @@ ul {
 .posts-arrangement{
  display: grid;
  padding-bottom: 1rem;
+ justify-content: center;
+ align-items: center;
 }
 
 
@@ -1164,6 +1170,58 @@ ul {
   display: flex;
 }
 
-.posts-arrangement img {
-  margin-right: 1rem;
+.emoji{
+  margin-right: 1rem; 
+  height: 100%; 
+  font-size: 40px;
+}
+
+
+
+
+/* ARTICULATION ANIMATION ON HEAD */
+.typing-container {
+  display: flex;
+  align-items: center;
+}
+
+.typed-text {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  font-size: 4em;
+  white-space: nowrap;
+  overflow: hidden;
+
+  animation: typing 2s steps(9, end),
+  cursor-blink 0.3s step-end infinite alternate;
+}
+
+.cursor {
+  font-size: 4.4em;
+  margin-left: -0.12em;  
+  animation: blink 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from { 
+      width: 0; 
+  }
+  to { 
+      width: 100%; 
+  }
+}
+
+@keyframes blink-caret {
+  from, to {
+      border-color: transparent;
+  }
+  50% {
+      border-color: orange;
+  }
+}
+
+@keyframes blink {
+  50% {
+      opacity: 0;
+  }
 }

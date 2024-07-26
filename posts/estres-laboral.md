@@ -8,6 +8,8 @@ tags:
   - bienestar
   - productividad
 layout: layouts/post.njk
+# imagePost: https://assets.playgroundai.com/d2bcf4d3-9997-4dd6-baf1-2b8146c7a0e3.jpg
+concept: reading
 ---
 
 # Cómo Manejar el Estrés Laboral
