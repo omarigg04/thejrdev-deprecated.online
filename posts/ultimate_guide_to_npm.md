@@ -9,6 +9,7 @@ tags:
   - development
   - versions
 layout: layouts/post.njk
+concept: tutorial
 ---
 
 ### SEO Meta Description

@@ -10,6 +10,7 @@ tags:
   - curve
   - summary
 layout: layouts/post.njk
+concept: tutorial
 ---
 # Yarn
 

@@ -9,7 +9,7 @@ tags:
   - electronics
 layout: layouts/post.njk
 # imagePost: https://assets.playgroundai.com/57ea3af1-068c-4607-83ca-b7ed1ec6802b.jpg
-concept: electronics
+concept: audio
 
 ---
 

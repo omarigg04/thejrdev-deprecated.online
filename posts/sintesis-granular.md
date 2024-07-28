@@ -9,6 +9,7 @@ tags:
   - learning
   - tutorial
 layout: layouts/post.njk
+concept: audio
 ---
 
 # Explorando la Síntesis Granular

@@ -8,6 +8,7 @@ tags:
   - navbar
   - webdevelopment
 layout: layouts/post.njk
+concept: tutorial
 ---
 
 # Mini Tutorial sobre Cómo Agregar Dinámicamente Páginas al Navbar con Eleventy
