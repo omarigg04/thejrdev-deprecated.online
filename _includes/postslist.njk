@@ -8,7 +8,22 @@
       <a href="{{ post.url | url }}">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a>
     </div>
   </li>
-
+  {% elif post.data.concept == 'tutorial' %}
+  <li class="posts-arrangement">
+      <a class="emoji">💻</a>
+    <div class="date-time">
+      <time datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
+      <a href="{{ post.url | url }}">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a>
+    </div>
+  </li>
+  {% elif post.data.concept == 'audio' %}
+  <li class="posts-arrangement">
+      <a class="emoji">🎹</a>
+    <div class="date-time">
+      <time datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
+      <a href="{{ post.url | url }}">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a>
+    </div>
+  </li>
 {% else %}
   <li class="posts-arrangement">
       <a class="emoji">💡</a>
@@ -17,8 +32,12 @@
       <a href="{{ post.url | url }}">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a>
     </div>
   </li>
-
   {% endif %}
+
+
+
+
+  
 {% endfor %}
 
 </ul>

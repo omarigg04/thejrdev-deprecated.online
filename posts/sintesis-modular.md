@@ -9,6 +9,7 @@ tags:
   - learning
   - tutorial
 layout: layouts/post.njk
+concept: audio
 ---
 
 # Introducción a la Síntesis Modular
