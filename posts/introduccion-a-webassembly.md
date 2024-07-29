@@ -7,7 +7,7 @@ tags:
   - web
   - tecnología
   - desarrollo
-  - programación
+  - programacion
   - tutorial
 layout: layouts/post.njk
 concept: reading
